@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.head-title {
+  font-weight: 200;
+}
+
+.contents {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 200;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+.visit-button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px 80px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 300px;
+}
+
+.collection {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.collection-value {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fortnite-collection {
+  width: 100%;
+  max-width: 250px;
+  margin: 20px;
+}
+
+.para-details {
+  width: 100%;
+  max-width: 230px;
+  text-align: center;
+  margin: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.list-images {
+  height: 200px;
+  margin-bottom: 180px;
+}
+
+.contribution {
+  font-weight: 200;
+  font-size: 35px;
+  color: white;
+  margin-top: 50px;
+}
+
+.contribution-para {
+  color: white;
+  font-weight: 200;
+  font-size: 17px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.experience-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.exp {
+  font-weight: 200;
+  font-size: 20px;
+  margin: 20px;
+  width: 200px;
+}
+
+.exp-header {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.contact {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-header {
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.contact-para {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 19px;
+  font-weight: 200;
+}
+
+.skype{
+  border: none;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px 5px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.contact-button {
+  border: none;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px 5px;
+  color: black;
+  background-color: white;
+}
+
+.footer {
+  color: white;
+  margin-top: 50px;
+  font-size: 12px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .paragraph{
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+  .contribution-para {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .visit-button{
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .skype{
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .contact-para{
+    font-size: 12px;
+
+  }
+
+  .contact-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .exp{
+    margin-bottom: 150px;
+  }
+
+  .exp-header {
+    font-size: 40px;
+  }
+
+  .contact-para {
+    font-size: 15px;
+  }
+
+  .experience-data {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .visit-button{
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .skype{
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .contact-button {
+    font-size: 10px;
+    padding: 10px;
+  }
+  
+  .exp-header {
+    font-size: 30px;
+  }
+
+  .contact-header {
+    font-size: 25px;
+  }
+
+  .contact-para {
+    font-size: 10px;
+  }
+
+  .exp {
+    margin-top: 10px;
+  }
+}
